@@ -1,7 +1,7 @@
 
 function makeBig() { 
     var Video = document.getElementById("japanese");
-    Video.width = 560; 
+    Video.width = 600; 
 } 
 
 function Write(){
