@@ -5,11 +5,12 @@ ctx.font = "30px Arial";
 ctx.fillText("Canvas is canvas!",10,50);
 };
 
-var myVideo = document.getElementById("japanese"); 
+var myVideo = document.getElementById("japanese");
 
-function playPause() { 
-  if (myVideo.paused) 
-    myVideo.play(); 
+function Playvideo() { 
+  if (myVideo.paused)
+
+  myVideo.play();
   else 
-    myVideo.pause(); 
-} 
+    myVideo.pause();
+}
