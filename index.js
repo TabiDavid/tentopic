@@ -4,3 +4,12 @@ var ctx = c.getContext("2d");
 ctx.font = "30px Arial";
 ctx.fillText("Canvas is canvas!",10,50);
 }
+
+var myVideo = document.getElementById("Japanese"); 
+
+function playPause() { 
+  if (myVideo.paused) 
+    myVideo.play(); 
+  else 
+    myVideo.pause(); 
+} 
