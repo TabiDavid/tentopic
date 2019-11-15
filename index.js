@@ -3,9 +3,9 @@ function Write(){
 var ctx = c.getContext("2d");
 ctx.font = "30px Arial";
 ctx.fillText("Canvas is canvas!",10,50);
-}
+};
 
-var myVideo = document.getElementById("Japanese"); 
+var myVideo = document.getElementById("japanese"); 
 
 function playPause() { 
   if (myVideo.paused) 
