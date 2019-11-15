@@ -2,12 +2,8 @@
 
 <html>
 <head>
-    <style>
-        #canvas1{
-    background: green;
-    border: 2px solid;
-}
-        </style>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
 </head>
 <body>
     <video width="320" height="240" controls>
@@ -31,16 +27,5 @@
         <source src="mark.mp3" type="audio/mpeg">
       Your browser does not support the audio element.
       </audio>
-
-      <script>
-      
-      function Write(){
-    var c = document.getElementById("canvas1");
-var ctx = c.getContext("2d");
-ctx.font = "30px Arial";
-ctx.fillText("Canvas is canvas!",10,50);
-
-}
-      </script>
 </body>
 </html>
